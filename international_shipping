@@ -1,4 +1,21 @@
+<!-- 011917 INVENTORY SHIPPING NOTICE -->
+<style>
+.jm-footerCONTENT-MainWrap{
+margin-top:1%;
+}
+.jm-color-red{
+color:#e21f26;
+}
+.jm-color-red br{
+display:block !important;
+}
+</style>
+
 <section class="jm-footerCONTENT-MainWrap">
+<br/>
+<p class="jm-color-red">
+<b>SHIPPING NOTICE:</b> Orders Placed 1/21-1/29 Will Ship Starting <b>1/30</b>
+</p>
 <br/>
 	<!-- QUESTION 1 0601 -->
 
