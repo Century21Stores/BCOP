@@ -1,13 +1,23 @@
-<!-- REVISED 1/5/17 -->
+<!-- 011917 INVENTORY SHIPPING NOTICE -->
 <style>
-.jm-top-marg{
-margin-top: 7%;
+.jm-footerCONTENT-MainWrap{
+margin-top:1%;
+}
+.jm-color-red{
+color:#e21f26;
+}
+.jm-color-red br{
+display:block !important;
 }
 </style>
 <section class="jm-footerCONTENT-MainWrap">
 
 
 <section class="jm-CONTENT">
+	<br/>
+<p class="jm-color-red">
+<b>SHIPPING NOTICE:</b> Orders Placed 1/21-1/29 Will Ship Starting <b>1/30</b>
+</p>
 	<br/>
 	<h3>ORDERING & PAYMENT</h3>
 	<!-- QUESTION 1 -->
@@ -82,7 +92,7 @@ margin-top: 7%;
 
 	<!-- QUESTION 14 -->
 	<p><b>DOES C21STORES.COM CHARGE TAX?</b></p>
-	<p>On orders placed in New York, New Jersey, Pennsylvania, and Florida, applicable sales tax will be added. Orders placed outside of these states are tax-free! </p>
+	<p>On orders placed in New York, New Jersey, Pennsylvania, and Florida, applicable sales tax will be added. Orders placed outside of these states are tax-free!</p>
 	
 </section>
 
