@@ -1,4 +1,4 @@
-<!-- 011917 INVENTORY SHIPPING NOTICE -->
+<!-- 032717 Update PRICE MATCH -->
 <style>
 .jm-footerCONTENT-MainWrap{
 margin-top:1%;
@@ -9,15 +9,20 @@ color:#e21f26;
 .jm-color-red br{
 display:block !important;
 }
+.jm-top-marg{
+margin-top:2%;
+}
 </style>
 <section class="jm-footerCONTENT-MainWrap">
 
 
 <section class="jm-CONTENT">
 	<br/>
+<!--
 <p class="jm-color-red">
 <b>SHIPPING NOTICE:</b> Orders Placed 1/21-1/29 Will Ship Starting <b>1/30</b>
 </p>
+-->
 	<br/>
 	<h3>ORDERING & PAYMENT</h3>
 	<!-- QUESTION 1 -->
@@ -63,7 +68,7 @@ display:block !important;
 	<p>You will receive a Shipping Confirmation email once your order has shipped. Click on the link that is included in the email to track your package. 
 	Alternatively, you may sign into your account, click on My Account, and then Order History to see all of your orders. You can click on “view” to see more details about each order.</p>	
 	
-	<!-- QUESTION 9 -->call 
+	<!-- QUESTION 9 -->
 	<p><b>WHAT DO I DO IF MY PACKAGE ARRIVED WITH DAMAGED GOODS?</b></p>
 	<p>We apologize if your order arrived damaged. Please email us or call us at 877-350-2121 for assistance in this matter.</p>		
 	
@@ -95,6 +100,15 @@ display:block !important;
 	<p>On orders placed in New York, New Jersey, Pennsylvania, and Florida, applicable sales tax will be added. Orders placed outside of these states are tax-free!</p>
 	
 </section>
+
+
+<section class="jm-CONTENT jm-top-marg">
+	<h3>PRICE MATCHING POLICY </h3>
+
+
+<p>If you find a lower advertised price, within 14 days of your purchase, IN STORE or ONLINE, at a qualifying US-based competitor for any item that Century 21 Department Stores has in-stock, we’ll gladly match their price. <a href="https://www.c21stores.com/pages/price-matching-policy">Click here</a> for the full Price Matching Policy.</p>
+</section>
+
 
 <!-- SHIPPING INFORMATION -->
 <section class="jm-CONTENT jm-top-marg">
@@ -248,43 +262,11 @@ display:block !important;
 	<p>If returning to our Downtown store location, customers must present the original packing slip, price tags attached, merchandise in selling condition and with original packaging. An ID must also be presented when making returns.</p>
 	<p>All other fine jewelry in-store purchases cannot be returned to our E-commerce Return Center and must be returned to the location purchased.</p>
 
+<!-- QUESTION 4.6 -->
+	<p><b>WHAT IS THE C21STORES.COM RETURN POLICY FOR ZUO FURNITURE ITEMS?</b></p>
+	<p>If you are not satisfied with an item purchased from Zuo made on the Century 21 website, you can return it within 30 days from the date of delivery. You will need to send an email to <a href="mailto:julie@zuomod.com">julie@zuomod.com</a> with your return request along with a forwarded version of your Century 21 order confirmation email. Zuo will require the original order confirmation email in order to proceed with your return. Zuo will send you an RMA # along with a shipping address & instructions. The RMA # expires 2 weeks from date of issue and cost of shipping to Zuo will be the responsibility of the customer. There will be a 30% restocking fee for items that are returned without their original packaging.</p>
 
-		
-
-	<!-- QUESTION 4.6 -->
-	<p><b>SECOND TIME AROUND WATCH RETURNS:</b></p>
-	<p>If for any reason you are not satisfied with your Second Time Around watch purchase, please feel free to return the purchased item(s) within 14 days of receipt for a full refund. Returned watches must be received in the same condition as initially shipped. Please direct any questions only regarding vintage watch returns to 1-800-977-7615 or email <b>info@secondtimearoundwatchco.com.</b></p>
-	<p>All returns are subject to a restocking fee of 7.5% of the total purchase amount plus additional return fee of $50 per item.</p>
-
-
-	<!-- QUESTION 4.7 -->
-	<p><b>HOW DO I RETURN A PURCHASE?</b></p>
-	<p>Authorized return watches are to be shipped back to Second Time Around Watch Company at:</p>
-	<p>	STAWC<br/>
-		160 S. Beverly Drive<br/>
-		Beverly Hills, CA 90212<br/>
-		Ref: C21 Returns
-	</p>
-
-	<p>All watches returned must be:</p>
-	<ul>
-		<li>Packaged securely so that they do not sustain any damage in shipping</li>
-		<li>Include the name, address, and phone number of the purchaser</li>
-		<li>Be shipped prepaid insured</li>
-	</ul>
-
-	<!-- QUESTION 4.7 -->
-	<p><b>WHEN WILL I SEE MY CREDIT OR REFUND?</b></p>
-	<p>The time it takes for a refund to appear will depend on your credit card company or bank. Typically, a refund will appear on the client's billing statement around 10 business days after the date of the refund.</p>
-	<p>For returns, refunds will only be issued upon reception of the returned item at our final shipping warehouse. Please allow up to 5 business days from the time the item arrives at our warehouse for the refund to be issued.</p>
-
-
-	<!-- QUESTION 4.8 -->
-	<p><b>CAN I EXCHANGE MY WATCH FOR ANOTHER PRODUCT?</b></p>
-	<p>No direct product exchange is available at this time.</p>
-	
-			
-		
+					
 	<!-- QUESTION 5 -->
 	<p><b>WHAT IS THE IN-STORE RETURN POLICY? </b></p>
 	<p>Merchandise in its original selling condition (not worn and in original packaging) may be returned or exchanged within 45 days of purchase date with the original receipt and tickets attached. 
