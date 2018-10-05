@@ -1,4 +1,4 @@
-<!-- Customer Service - Demandware first push - CCava - 10.04.18  -->
+<!-- Customer Service - Demandware second push - CCava - 10.05.18  -->
 
 
 <section class="jm-bcop-page">
@@ -6,17 +6,17 @@
 
 
 <!-- ALERT MESSAGE -->
-<p class="jm-alert-red">
-<strong>
-    <b>CUSTOMER SERVICE FAQS</b> 
-</strong>
+<aside class="jm-alert-red">
+<p>
+    <strong>CUSTOMER SERVICE FAQS</strong> 
 </p>  
+</aside>
 <!-- END ALERT MESSAGE -->
 
 
 <!-- SECTION 1 -->
 <article>
-	<header>ORDERING & PAYMENT</header>
+	<header><h2>ORDERING & PAYMENT</h2></header>
 
 	<!-- QUESTION 1.1 -->
 	<h3>HOW DO I PLACE AN ORDER?</h3>
@@ -60,7 +60,7 @@
 
 <!-- SECTION 2 -->
 <article>
-	<header>PAYMENT METHODS</header>
+	<header><h2>PAYMENT METHODS</h2></header>
 
 	<!-- QUESTION 2.1 -->
 	<h3>WHAT FORMS OF PAYMENT DO YOU ACCEPT?</h3>
@@ -76,7 +76,7 @@
 
 <!-- SECTION 3-->
 <article>
-	<header>BILLING & TAX</header>
+	<header><h2>BILLING & TAX</h2></header>
 
 	<!-- QUESTION 3.1 -->
 	<h3>WHEN WILL MY CREDIT CARD BE CHARGED?</h3>
@@ -101,7 +101,7 @@
 <!-- SECTION 5-->
 <article>
 
-	<header>SHIPPING INFORMATION</header>
+	<header><h2>SHIPPING INFORMATION</h2></header>
 
 	<h3>SHIPPING FEES</h3>
 
@@ -205,7 +205,7 @@
 
 <!-- SECTION 6-->
 <article>
-	<header>SHIPPING METHODS</header>
+	<header><h2>SHIPPING METHODS</h2></header>
 
 
 	<!-- QUESTION 6.1 -->
@@ -221,7 +221,7 @@
 
 <!-- SECTION 7-->
 <article>
-	<header>INTERNATIONAL SHIPPING</header>
+	<header><h2>INTERNATIONAL SHIPPING</h2></header>
 
 	<!-- QUESTION 7.1 -->
 	<h3>YOU CAN HAVE YOUR C21STORES.COM ORDERS SHIPPED TO YOUR INTERNATIONAL ADDRESS BY USING OUR PARTNER MYUS.COM</h3>
@@ -269,7 +269,7 @@
 
 <!-- SECTION 8-->
 <article>
-	<header>RETURNS</header>
+	<header><h2>RETURNS</h2></header>
 	<!-- QUESTION 8.1 -->
 	<h3>HOW DO I RETURN MERCHANDISE PURCHASED ON C21STORES.COM?</h3>
 
