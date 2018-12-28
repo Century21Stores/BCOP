@@ -1,5 +1,12 @@
-<!-- Customer Service - ADA Update - CCava - 12.27.18  -->
-
+<!-- Customer Service - ADA Update - CCava - 12.28.18  -->
+<style>
+header ~ .container a:not(.btn-primary):not(.btn-outline-primary){
+	color:blue;
+}
+.jm-bcop-table{
+	width: 100%;
+}
+</style>
 
 <div class="jm-landing-page jm-bcop-page jm-bcop-page-customer-service">
 
@@ -44,14 +51,14 @@
 	<!-- QUESTION 1.5 -->
 	<div>
 		<h3>CAN I ADD TO OR CANCEL MY ORDER AFTER IT HAS BEEN PLACED?</h3>
-			<p>There is a brief time frame during which we may be able to adjust or cancel your order between the time you placed your order and processing to our distribution center. If there are any issues, <a href="$url('Page-Show','cid','cs-contact-number')$" title="contact customer service">please contact Customer Service</a> for further assistance.</p>
+			<p>There is a brief time frame during which we may be able to adjust or cancel your order between the time you placed your order and processing to our distribution center. If there are any issues, <a href="$url('Page-Show','cid','cs-contact-number')$">please contact Customer Service</a> for further assistance.</p>
 	</div>
 
 	<!-- QUESTION 1.6 -->
 	<div>
 
-		<h3>HOW DO I CHECK MY ORDER STATUS?</h>
-			<p>You may track your order by signing into your account, <a href="$url('Page-Show','cid','myaccount-login')$" title="my account">clicking on My Account</a> and then My Orders to review the status of your orders</p>
+		<h3>HOW DO I CHECK MY ORDER STATUS?</h3>
+		<p>You may track your order by signing into your account, <a href="$url('Page-Show','cid','myaccount-login')$">clicking on My Account</a> and then My Orders to review the status of your orders</p>
 	</div>
 
 	<!-- QUESTION 1.7 -->
@@ -64,7 +71,7 @@
 	<div>
 
 		<h3>WHAT DO I DO IF MY PACKAGE ARRIVED WITH DAMAGED GOODS OR MISSING ITEM(S)?</h3>
-			<p>We apologize if your order arrived damaged or incomplete. Please <a aria-label="Email us at ccclaims@c21stores.com" title="Email us at ccclaims@c21stores.com" href="mailto:ccclaims@c21stores.com">email us at ccclaims@c21stores.com</a> with your order number and an image of the damaged item. If something is missing, please review the packing list. An item may no longer be available or is being shipped separately.</p>
+			<p>We apologize if your order arrived damaged or incomplete. Please <a href="mailto:ccclaims@c21stores.com">email us at ccclaims@c21stores.com</a> with your order number and an image of the damaged item. If something is missing, please review the packing list. An item may no longer be available or is being shipped separately.</p>
 	</div>
 
 </section>
@@ -78,7 +85,7 @@
 	<!-- QUESTION 2.1 -->
 	<div>
 		<h3>WHAT FORMS OF PAYMENT DO YOU ACCEPT?</h3>
-			<p>C21Stores.com proudly accepts the <a href="$url('Page-Show','cid','instant-credit-page')$" title="C 21 Status Credit Card">C21STATUS Credit Card</a>, American Express, Visa and MasterCard. Additionally, you may pay with Century 21 Department Store gift cards and C21 e-gift cards.</p>
+			<p>C21Stores.com proudly accepts the <a href="$url('Page-Show','cid','instant-credit-page')$">C21STATUS Credit Card</a>, American Express, Visa and MasterCard. Additionally, you may pay with Century 21 Department Store gift cards and C21 e-gift cards.</p>
 
 			<p>C21Stores.com does not accept PayPal or Discover cards as methods of payment.</p> 
 	</div>
@@ -113,7 +120,7 @@
 <section title="PRICE MATCHING POLICY">
 
 	<h2 class="jm-question">PRICE MATCHING POLICY </h2>
-		<p>If you find a lower advertised price within 14 days of your purchase IN-STORE or ONLINE, at a qualifying U.S.-based competitor for any item that Century 21 Department Store has in stock, we’ll gladly match their price. We do not price match on regular markdowns within the store. <a href="$url('Page-Show','cid','privacy-policy')$" title="Privacy Policy">Click here for the full Price Matching Policy</a>.</p>
+		<p>If you find a lower advertised price within 14 days of your purchase IN-STORE or ONLINE, at a qualifying U.S.-based competitor for any item that Century 21 Department Store has in stock, we’ll gladly match their price. We do not price match on regular markdowns within the store. <a href="$url('Page-Show','cid','privacy-policy')$">Click here for the full Price Matching Policy</a>.</p>
 
 </section>
 
@@ -130,7 +137,7 @@
 			<h4>HOW MUCH DOES IT COST TO SHIP MY ORDER?</h4>
 				<p>Shipping fees are calculated based upon the subtotal of the merchandise ordered. If your order is less than $75, the fee is $9.99 for standard ground shipping.
            		If your order is $75 or more, you are entitled to free standard shipping. This threshold may change based on special promotions.</p>
-				<p>Premier C21STATUS Credit Card holders receive free shipping on select orders $50 and over and Elite on all orders—only for purchases made with C21STATUS Credit Cards: exclusions apply. <a href="$url('Page-Show','cid','terms-of-use')$" title="Terms of Use">See terms/conditions for details</a>. Gift card orders that do not include merchandise ship free.</p>
+				<p>Premier C21STATUS Credit Card holders receive free shipping on select orders $50 and over and Elite on all orders—only for purchases made with C21STATUS Credit Cards: exclusions apply. <a href="$url('Page-Show','cid','terms-of-use')$">See terms/conditions for details</a>. Gift card orders that do not include merchandise ship free.</p>
 
   	<!-- QUESTION 5.2 -->
   			<h4> HOW LONG WILL IT TAKE TO RECEIVE MY ORDER?</h4>
@@ -145,73 +152,73 @@
   			<h4>WHAT IS THE COST OF EXPEDITING AN ORDER?</h4>
   				<p>There is an additional cost of $25 for expedited shipping for orders $75 or more. If the subtotal of the order is less than $75, the fee is $34.99 for expedited shipping. Gift cards may also be expedited for a $25 fee. </p>
  </div>
-
-    <table class="jm-bcop-table">
+		
+    <table class="jm-bcop-table" role="table" aria-label="Returns">
     <tbody>
       <tr>
-        <td>Order Placed On</td>
-        <td>Expedited Shipping Order<br>Shipped By</td>
-        <td>Expedited Shipping Order<br>Expected Delivery</td>
+        <td role="columnheader"><h5>Order Placed On</h5></td>
+        <td role="columnheader"><h5>Expedited Shipping Order<br>Shipped By</h5></td>
+        <td role="columnheader"><h5>Expedited Shipping Order<br>Expected Delivery</h5></td>
       </tr>
       <tr>
-        <td>Monday before 12PM EST</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
+        <td role="cell">Monday before 12PM EST</td>
+        <td role="cell">Tuesday</td>
+        <td role="cell">Wednesday</td>
       </tr>
       <tr>
-        <td>Monday after 12PM EST</td>
-        <td>Wednesday</td>
-        <td>Thursday</td>
+        <td role="cell">Monday after 12PM EST</td>
+        <td role="cell">Wednesday</td>
+        <td role="cell">Thursday</td>
       </tr>
       <tr>
-        <td>Tuesday before 12PM EST</td>
-        <td>Wednesday</td>
-        <td>Thursday</td>
+        <td role="cell">Tuesday before 12PM EST</td>
+        <td role="cell">Wednesday</td>
+        <td role="cell">Thursday</td>
       </tr>
       <tr>
-        <td>Tuesday after 12PM EST</td>
-        <td>Thursday</td>
-        <td>Friday</td>
+        <td role="cell">Tuesday after 12PM EST</td>
+        <td role="cell">Thursday</td>
+        <td role="cell">Friday</td>
       </tr>
       <tr>
-        <td>Wednesday before 12PM EST</td>
-        <td>Thursday</td>
-        <td>Friday</td>
+        <td role="cell">Wednesday before 12PM EST</td>
+        <td role="cell">Thursday</td>
+        <td role="cell">Friday</td>
       </tr>
       <tr>
-        <td>Wednesday after 12PM EST</td>
-        <td>Friday</td>
-        <td>Monday</td>
+        <td role="cell">Wednesday after 12PM EST</td>
+        <td role="cell">Friday</td>
+        <td role="cell">Monday</td>
       </tr>
       <tr>
-        <td>Thursday before 12PM EST</td>
-        <td>Friday</td>
-        <td>Monday</td>
+        <td role="cell">Thursday before 12PM EST</td>
+        <td role="cell">Friday</td>
+        <td role="cell">Monday</td>
       </tr>
       <tr>
-        <td>Thursday after 12PM EST</td>
-        <td>Monday</td>
-        <td>Tuesday</td>
+        <td role="cell">Thursday after 12PM EST</td>
+        <td role="cell">Monday</td>
+        <td role="cell">Tuesday</td>
       </tr>
       <tr>
-        <td>Friday before 12PM EST</td>
-        <td>Monday</td>
-        <td>Tuesday</td>
+        <td role="cell">Friday before 12PM EST</td>
+        <td role="cell">Monday</td>
+        <td role="cell">Tuesday</td>
       </tr>
       <tr>
-        <td>Friday after 12PM EST</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
+        <td role="cell">Friday after 12PM EST</td>
+        <td role="cell">Tuesday</td>
+        <td role="cell">Wednesday</td>
       </tr>
       <tr>
-        <td>Saturday</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
+        <td role="cell">Saturday</td>
+        <td role="cell">Tuesday</td>
+        <td role="cell">Wednesday</td>
       </tr>
       <tr>
-        <td>Sunday</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
+        <td role="cell">Sunday</td>
+        <td role="cell">Tuesday</td>
+        <td role="cell">Wednesday</td>
       </tr>
     </tbody>
     </table>
@@ -290,7 +297,7 @@
 <!-- SECTION 8-->
 <section title="RETURNS">
 
-<h2 class="jm-question">RETURNS</h2>=
+<h2 class="jm-question">RETURNS</h2>
 	
 	<!-- QUESTION 8.1 -->
 	<div>
@@ -330,7 +337,7 @@
 
 		<!-- QUESTION 8.4.1 -->
 			<h4>How do I return an LXRandCo purchase?</h4>
-				<p>If you are not satisfied with an item purchased from LXRandCo made on the Century 21 website, you can return it within 7 days from the date of delivery. You will need to send an <a aria-label="Email us at info@lxrco.com" title="Email us at info@lxrco.com" href="mailto:info@lxrco.com">email to info@lxrco.com</a> with your return request along with a forwarded version of your Century 21 Order Confirmation email. LXRandCo will require the original Order Confirmation email in order to proceed with your return.  </p>
+				<p>If you are not satisfied with an item purchased from LXRandCo made on the Century 21 website, you can return it within 7 days from the date of delivery. You will need to send an <a href="mailto:info@lxrco.com">email to info@lxrco.com</a> with your return request along with a forwarded version of your Century 21 Order Confirmation email. LXRandCo will require the original Order Confirmation email in order to proceed with your return.  </p>
 				<p><b>The orange cable attached to the product must remain intact in order for an item to be returned. If the orange cable on the item is cut, you will not be able to return the order.</b></p>
 
 		<!-- QUESTION 8.4.2 -->
@@ -359,7 +366,7 @@
 	<div>
 
 		<h3>WHAT IS THE C21STORES.COM RETURN POLICY FOR ZUO MOD FURNITURE ITEMS?</h3>
-			<p>If you are not satisfied with an item purchased from Zuo MOD made on the Century 21 website, you can return it within 30 days from the date of delivery. You will need to <a aria-label="Send an email to julie@zuomod.com" title="Send an email to julie@zuomod.com" href="mailto:julie@zuomod.com">send an email to julie@zuomod.com</a> with your return request along with a forwarded version of your Century 21 Order Confirmation email. Zuo Mod will require the original Order Confirmation email in order to proceed with your return. Zuo Mod will send you an RMA # along with a shipping address & instructions. The RMA # expires 2 weeks from date of issue and cost of shipping to Zuo Mod will be the responsibility of the customer. There will be a 30% restocking fee for items that are returned without their original packaging.</p>
+			<p>If you are not satisfied with an item purchased from Zuo MOD made on the Century 21 website, you can return it within 30 days from the date of delivery. You will need to <a href="mailto:julie@zuomod.com">send an email to julie@zuomod.com</a> with your return request along with a forwarded version of your Century 21 Order Confirmation email. Zuo Mod will require the original Order Confirmation email in order to proceed with your return. Zuo Mod will send you an RMA # along with a shipping address & instructions. The RMA # expires 2 weeks from date of issue and cost of shipping to Zuo Mod will be the responsibility of the customer. There will be a 30% restocking fee for items that are returned without their original packaging.</p>
 	</div>
 
 	<!-- QUESTION 11 -->
@@ -389,21 +396,21 @@
 	<div>
 
 		<h3>WHAT IS THE C21STORES.COM RETURN POLICY FOR WEBIKE ITEMS?</h3>
-			<p>If there are any questions regarding products or if you are not satisfied with the purchase of an item made on the Century 21 website, please <a href=“tel:+1-646-927-0889”>call 646-927-0889</a>or <a aria-label="Email xenia@hgroupny.com" title="Email xenia@hgroupny.com" href="mailto:xenia@hgroupny.com">email xenia@hgroupny.com</a> for a return authorization number (RA#). Items can be returned within 30 days from the date of delivery; it cannot be returned to our Ecommerce Return Center or any other C21 store locations. There will be a 20% restocking fee and shipping fee for items that are returned. </p>
+			<p>If there are any questions regarding products or if you are not satisfied with the purchase of an item made on the Century 21 website, please <a href=“tel:+1-646-927-0889”>call 646-927-0889</a>or <a href="mailto:xenia@hgroupny.com">email xenia@hgroupny.com</a> for a return authorization number (RA#). Items can be returned within 30 days from the date of delivery; it cannot be returned to our Ecommerce Return Center or any other C21 store locations. There will be a 20% restocking fee and shipping fee for items that are returned. </p>
 	</div>
 
 	<!-- QUESTION 15-->
 	<div> 
 
 		<h3>WHAT IS THE C21STORES.COM RETURN POLICY FOR JBW ITEMS?</h3>
-			<p>If there are any questions regarding this product, please <a aria-label="Email support@jbw.com" title="Email support@jbw.com" href="mailto:support@jbw.com">contact support@jbw.com</a> or <a <a aria-label="Call 1-866-408-1600" href=“tel:+1-866-408-1600”>call 1-866-408-1600</a>. JBW watch purchases may be mailed to our E-commerce Return Center or returned to our C21 store locations with a valid ID within 30 days of the shipping date for a refund. Items must be in their original purchase condition and include the original product packaging, tickets attached and original packing slip. Returns will not be accepted if they have been worn, altered, washed, or damaged.</p> 
+			<p>If there are any questions regarding this product, please <a aria-label="Email support@jbw.com" title="Email support@jbw.com" href="mailto:support@jbw.com">contact support@jbw.com</a> or <a href=“tel:+1-866-408-1600”>call 1-866-408-1600</a>. JBW watch purchases may be mailed to our E-commerce Return Center or returned to our C21 store locations with a valid ID within 30 days of the shipping date for a refund. Items must be in their original purchase condition and include the original product packaging, tickets attached and original packing slip. Returns will not be accepted if they have been worn, altered, washed, or damaged.</p> 
 	</div>
 
 	<!-- QUESTION 13 -->
 	<div>
 
 		<h3>WHAT IS THE IN-STORE RETURN POLICY? </h3>
-			<p>Merchandise in its original selling condition (not worn and in original packaging) may be returned within 45 days of purchase date with the original receipt and tickets attached. Refunds will be issued in the original form of payment and the original credit card used to purchase the item must be present unless a store credit is requested. Valid photo identification is required—driver’s license, passport, state, military and government-issued IDs are accepted. Gift card purchases, vintage items and discounted final sale merchandise cannot be refunded or exchanged. If you decide to return one or more items purchased as part of a Buy One Get One (BOGO) or other dollar- or percentage-off promotion, a pro-rated portion of the purchase price will be returned to you unless all of the qualifying items are returned. Shipping fees will not be refunded. Vintage merchandise associated with LXRandCo must be returned within 7 days; <a href="$url('Page-Show','cid','lxr-co')$">About Us</a>>click here for details</a>. Fine jewelry purchased online can be returned by mail within 45 days of the shipping date to our Ecommerce Return Center or at our Downtown Manhattan store location (22 Cortlandt Street); it cannot be returned to any other C21 store locations. No receipt, no return: we cannot issue refunds for returns without a receipt.</p>
+			<p>Merchandise in its original selling condition (not worn and in original packaging) may be returned within 45 days of purchase date with the original receipt and tickets attached. Refunds will be issued in the original form of payment and the original credit card used to purchase the item must be present unless a store credit is requested. Valid photo identification is required—driver’s license, passport, state, military and government-issued IDs are accepted. Gift card purchases, vintage items and discounted final sale merchandise cannot be refunded or exchanged. If you decide to return one or more items purchased as part of a Buy One Get One (BOGO) or other dollar- or percentage-off promotion, a pro-rated portion of the purchase price will be returned to you unless all of the qualifying items are returned. Shipping fees will not be refunded. Vintage merchandise associated with LXRandCo must be returned within 7 days; <a title="Click here for more details about LXRandCO" href="$url('Page-Show','cid','lxr-co')$">click here for details</a>. Fine jewelry purchased online can be returned by mail within 45 days of the shipping date to our Ecommerce Return Center or at our Downtown Manhattan store location (22 Cortlandt Street); it cannot be returned to any other C21 store locations. No receipt, no return: we cannot issue refunds for returns without a receipt.</p>
 
 			<p>Mail it to:<br>Ecommerce Return Center<br/>700 Secaucus Road <br/>Secaucus, NJ 07094</p>
 	</div>
@@ -432,7 +439,7 @@
 	<div>
 
 		<h3>HOW DO I TRACK THE STATUS OF MY RETURN?</h3>
-			<p>You may track your return by logging in to your account, <a href="$url('Page-Show','cid','myaccount-login')$">clicking on My Account</a> and then My Orders. You will receive an email informing you that your return has been processed. If you printed a return label using our self-service portal, you can <a href="http://www.shipmentmanager.com/Portal.aspx?MerchantID=2100&TargetPageID=43">track the status here</a>.</p>
+			<p>You may track your return by logging in to your account, <a href="$url('Page-Show','cid','myaccount-login')$">clicking on My Account</a> and then My Orders. You will receive an email informing you that your return has been processed. If you printed a return label using our self-service portal, you can <a href="http://www.shipmentmanager.com/Portal.aspx?MerchantID=2100&TargetPageID=43" target="_blank">track the status here</a>.</p>
 	</div>
 
 	<!-- QUESTION 18 -->
@@ -440,21 +447,21 @@
 		<h3>HOW WILL YOU REFUND ME?</h3>
 		<p>Please see the chart below for how returns will be given:</p>
 		<!-- TABLE -->
-		<table style="width:100%">
+		<table class="jm-bcop-table" role="table" aria-label="Returns">
 		   <tr>
-		    	<td><h4>Original Tender</h4></td>
-    			<td><h4>Refund Mailed to the Ecommerce Return Center</h4></td>
-			<td><h4>Refund In-Store</h4></td>
+		    	<td role="columnheader"><h4>Original Tender</h4></td>
+    			<td role="columnheader"><h4>Refund Mailed to the Ecommerce Return Center</h4></td>
+				<td role="columnheader"><h4>Refund In-Store</h4></td>
 		    </tr>
 			<tr>
-		    	<td>Credit Card</td>
-    			<td>To the original card account</td>
-			    <td>To the original card account</td>
+		    	<td role="cell">Credit Card</td>
+    			<td role="cell">To the original card account</td>
+			    <td role="cell">To the original card account</td>
 		    </tr>
 			<tr>
-		    	<td>Gift Card</td>
-		    	<td>Gift Card</td>
-		    	<td>Gift Card</td>
+		    	<td role="cell">Gift Card</td>
+		    	<td role="cell">Gift Card</td>
+		    	<td role="cell">Gift Card</td>
 		    </tr>
 		</table>
 	</div>
@@ -469,7 +476,7 @@
 	<div>
 			<h3>HOW LONG WILL IT TAKE FOR MY CREDIT TO POST TO MY ACCOUNT?</h3>
 			<p>A credit will post to your account approximately 3-5 business days after the date we process your return. However, it may take up to two billing cycles for the credit to appear on your monthly bill.</p>
-			<p>Please contact Customer Service at <a aria-label="Call Century 21 Department Store Guest Service at 1-877-350-2121" title="Call Century 21 Department Store Guest Service at 1-877-350-2121" href=“tel:+1-877-350-2121”>877-350-2121</a> or <a aria-label="Email guestservice@c21stores.com" title="Email guestservice@c21stores.com" href="mailto:guestservice@c21stores.com">via email at guestservice@c21stores.com</a> with any questions.</p>
+			<p>Please contact Customer Service at <a aria-label="Call Century 21 Department Store Guest Service at 1-877-350-2121" title="Call Century 21 Department Store Guest Service at 1-877-350-2121" href=“tel:+1-877-350-2121”>877-350-2121</a> or <a href="mailto:guestservice@c21stores.com">via email at guestservice@c21stores.com</a> with any questions.</p>
 	</div>
 
 </section>
