@@ -3,6 +3,9 @@
 figure{
     margin: 0;
 }
+.jm-pdp-size-chart h3{
+    font-size: 1em;
+}
 .jm-underline-line{
     border-bottom: solid 1px;
 }
@@ -138,21 +141,21 @@ span.jm-cta-button-dark{
 span.jm-cta-button-dark:hover{
     background: black;
     color:white;
-    border-color: black;
+    border-color: black !important;
 }
 .jm-cta-button-soliddark,
 .page div.container a.jm-cta-button-soliddark,
 span.jm-cta-button-soliddark{
     color: white;
     background: black;
-    border-color: black;
+    border-color: black !important;
 }
 .jm-cta-button-soliddark:hover,
 .page div.container a.jm-cta-button-soliddark:hover,
 span.jm-cta-button-soliddark:hover{
     background: none;
     color:black !important;
-    border-color: black;
+    border-color: black !important;
 }
 .jm-cta-button-light,
 .page div.container a.jm-cta-button-light,
@@ -272,7 +275,15 @@ span.jm-cta-button-solidlight:hover{
     padding: 0;
     display: block;
 }
-header ~ .container .jm-bcop-page a:not(.btn-primary):not(.btn-outline-primary){
+<<<<<<< HEAD
+
+
+header ~ .container .jm-bcop-page a:not(.btn-primary):not(.btn-outline-primary),
+header ~ .container .instant-credit-landing-page .terms-and-conditions a:not(.btn-primary):not(.btn-outline-primary){    
+=======
+header ~ .container .jm-bcop-page a:not(.btn-primary):not(.btn-outline-primary),
+header ~ .container .instant-credit-landing-page .terms-and-conditions a:not(.btn-primary):not(.btn-outline-primary){
+>>>>>>> refs/remotes/origin/origin
     color:blue;
 }
 .jm-bcop-table tr td{
@@ -343,7 +354,9 @@ header ~ .container .jm-bcop-page a:not(.btn-primary):not(.btn-outline-primary){
 .jm-two-column article h2,
 .jm-two-column article h3,
 .jm-three-column article h2,
-.jm-three-column article h3{
+.jm-three-column article h3,
+.jm-one-column-hero-3 article h2,
+.jm-one-column-hero-3 article h3{
     font-weight: bold;
     line-height: 0.87;
     letter-spacing: 0.05em;
@@ -362,6 +375,16 @@ header ~ .container .jm-bcop-page a:not(.btn-primary):not(.btn-outline-primary){
     z-index: 2;    
 }
 /* ----- END GENERAL REG HERO CONTENT BLOCK ----- */
+
+
+/* ----- LARGE PLUS ONE CONTENT BLOCK ----- */
+.jm-large-plus-one .jm-large-plus-one-l{
+    position: relative;
+}
+.jm-large-plus-one .jm-large-plus-one-s > div{
+    height: 100%;
+}
+/* ----- END LARGE PLUS ONE CONTENT BLOCK ----- */
 
 
 /* ----- SIZE CHARTS ----- */
@@ -652,6 +675,57 @@ article.jm-textalign-right a:last-of-type{
 /* END MULTIPLE REG HERO CONTENT BLOCK */
 
 /* ------- END REG HERO CONTENT BLOCK ------- */
+
+/* ----- LARGE PLUS ONE CONTENT BLOCK ----- */
+.jm-large-plus-one{
+    overflow: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: flex;
+}
+.jm-large-plus-one-w0319-msgXX .jm-large-plus-one-content{
+    position: absolute;
+    padding: 5%;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.jm-large-plus-one-w0319-msgXX .jm-large-plus-one-s article{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 44%;    
+}
+.jm-large-plus-one-s{
+    width: 32.6666666667%;
+    float: right;
+    margin: 0 0 0 1%;
+}
+.jm-large-plus-one-l{
+    width: 66.3333333333%;
+    float: left;    
+}
+/* ----- END LARGE PLUS ONE CONTENT BLOCK ----- */
+
+
 
 }
 
