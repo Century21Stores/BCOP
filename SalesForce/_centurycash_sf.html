@@ -3,10 +3,11 @@
 header ~ .container a:not(.btn-primary):not(.btn-outline-primary){
   color:blue;
 }
-
 .cc-underline { text-decoration: underline; }
 
+
 </style>
+
 <div class="jm-landing-page jm-bcop-page jm-bcop-page-century-cash">
 
 
@@ -16,7 +17,7 @@ header ~ .container a:not(.btn-primary):not(.btn-outline-primary){
        <h2 class="jm-question">TERMS & CONDITIONS</h2>
   
 
-          <p><sup>1</sup>How to Participate in the CENTURYCASH Promotion (“the Promotion”): subject to the terms and provisions herein, for every $100 spent on Eligible Purchases (as defined below) at a Century 21 retail store (“Century 21 Stores”) or at C21Stores.com between 9/19/2019 at 12:01am ET and 9/23/2019 at 11:59pm ET, customers that have provided a valid email address that is linked to their qualifying purchase only, will receive $21 in CENTURYCASH, up to a maximum of $210 CENTURYCASH, per customer. Customer is only eligible to receive a maximum of $210 in CENTURYCASH based on its cumulative Eligible Purchases during the Promotion Period and will not be eligible to receive additional CENTURYCASH once customer has spent $1000 or more on Eligible Purchases during the Promotion Period.</p>
+          <p id="jmr-note-1"><sup>1</sup>How to Participate in the CENTURYCASH Promotion (“the Promotion”): subject to the terms and provisions herein, for every $100 spent on Eligible Purchases (as defined below) at a Century 21 retail store (“Century 21 Stores”) or at C21Stores.com between 9/19/2019 at 12:01am ET and 9/23/2019 at 11:59pm ET, customers that have provided a valid email address that is linked to their qualifying purchase only, will receive $21 in CENTURYCASH, up to a maximum of $210 CENTURYCASH, per customer. Customer is only eligible to receive a maximum of $210 in CENTURYCASH based on its cumulative Eligible Purchases during the Promotion Period and will not be eligible to receive additional CENTURYCASH once customer has spent $1000 or more on Eligible Purchases during the Promotion Period.</p>
 
           <p>For example:<br>
           Spend $100-$199.99—Earn $21 in CENTURYCASH<br>
@@ -53,3 +54,13 @@ header ~ .container a:not(.btn-primary):not(.btn-outline-primary){
         <p>CENTURYCASH is void if copied, transferred, sold, auctioned, exchanged or expired. CENTURYCASH is not redeemable in any manner other than as expressly provided herein. By participating, customer agrees to release and hold harmless Century 21 and its advertising and promotion agencies and their respective parent companies, subsidiaries, affiliates, partners, representatives, agents, successors, assigns, employees, officers and directors (collectively, the “Released Parties”), from any and all liability, for loss, harm, damage, injury, cost or expense whatsoever including without limitation, property damage, which may occur in connection with the Promotion, or possession, acceptance and/or use or misuse of CENTURYCASH. Century 21 reserves the right, in its sole discretion, to cancel, terminate, modify, extend or suspend this Promotion should cheating, fraud or other causes beyond its reasonable control corrupt or affect the administration, security, fairness or proper conduct of the Promotion, or if the Promotion is rendered void or illegal by applicable laws, rules or regulations. For more information please ask a store associate or visit C21Stores.com for details.</p>
     </div>
 </div>
+
+<script>
+window.addEventListener("DOMContentLoaded", function(){
+if(window.location.href.indexOf("#jmr-note-0") > -1){
+  $('#jmr-note-1').addClass('jmr-add-outline');
+
+};
+
+});
+</script>
