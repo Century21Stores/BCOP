@@ -1,4 +1,10 @@
-<!-- Returns Page - CCava - 10.02.19 -->
+<!-- returns - JuanMa - 2.13.20 -->
+<style>
+.jm-bcop-page .jmr-target{
+	background: yellow;
+}
+</style>
+
 
 <div class="jm-landing-page jm-bcop-page jm-bcop-page-returns">
 
@@ -63,6 +69,13 @@
 
 </div>
 
+<div>
+
+<h2 class="jm-question">CAN I RETURN MERCHANDISE THAT I BOUGHT ON C21STORES.COM TO ANY CENTURY 21 STORES LOCATION?</h2>
+
+<p>Merchandise purchased on C21Stores.com may be returned at any Century 21 store to any register, with the exception of a Pop-Up Shop, which is a temporary location. Your C21Stores.com purchases can be returned at a Century 21 store if made within 45 days of the order date. You must present the original packing slip at the time of return. No exchanges are available in-store for online purchases, but you can return an online order in-store, then repurchase the item in another size if available. All vintage merchandise purchased on C21Stores.com is not returnable to Century 21 Stores locations. Fine jewelry purchased online can be returned by mail to our Ecommerce Return Center or at our Downtown Manhattan store location (22 Cortlandt Street); it cannot be returned to any other C21 store location. The credit card used to make the online purchase must be presented at the store at the time of return. No receipt, no return: we cannot issue refunds for returns without a receipt.</p>
+
+</div>
 <!-- Question 1.4 -->
 
 <div>
@@ -192,7 +205,7 @@
 
 <div>
 
-<h2 class="jm-question">WHAT IS THE IN-STORE RETURN POLICY?</h2>
+<h2 id="in_store_returns" class="jm-question">WHAT IS THE IN-STORE RETURN POLICY?</h2>
 
 <p>Merchandise in its original selling condition (not worn and in original packaging) may be returned or exchanged within 45 days of purchase date with the original receipt and tickets attached. Refunds will be issued in the original form of payment and the original credit card used to purchase the item must be present unless a store credit is requested. Valid photo identification is required&mdash;driver&rsquo;s license, passport, state, military and government-issued IDs are accepted. Gift card purchases, vintage items and discounted final sale merchandise cannot be refunded or exchanged. If you decide to return one or more items purchased as part of a Buy One Get One (BOGO) or other dollar- or percentage-off promotion, a pro-rated portion of the purchase price will be returned to you unless all of the qualifying items are returned. Shipping fees will not be refunded. Vintage merchandise associated with LXRandCo must be returned within 7 days; <a href="$url('Page-Show','cid','lxr-co')$">click here for more details</a>. Fine jewelry purchased online can be returned by mail within 45 days of the order date to our Ecommerce Return Center or at our Downtown Manhattan store location (22 Cortlandt Street); it cannot be returned to any other C21 store locations. No receipt, no return: we cannot issue refunds for returns without a receipt.</p>
 
@@ -202,13 +215,7 @@
 
 <!-- QUESTION 1.11 -->
 
-<div>
 
-<h2 class="jm-question">CAN I RETURN MERCHANDISE THAT I BOUGHT ON C21STORES.COM TO ANY CENTURY 21 STORES LOCATION?</h2>
-
-<p>Merchandise purchased on C21Stores.com may be returned at any Century 21 store to any register, with the exception of a Pop-Up Shop, which is a temporary location. Your C21Stores.com purchases can be returned at a Century 21 store if made within 45 days of the order date. You must present the original packing slip at the time of return. No exchanges are available in-store for online purchases, but you can return an online order in-store, then repurchase the item in another size if available. All vintage merchandise purchased on C21Stores.com is not returnable to Century 21 Stores locations. Fine jewelry purchased online can be returned by mail to our Ecommerce Return Center or at our Downtown Manhattan store location (22 Cortlandt Street); it cannot be returned to any other C21 store location. The credit card used to make the online purchase must be presented at the store at the time of return. No receipt, no return: we cannot issue refunds for returns without a receipt.</p>
-
-</div>
 
 <!-- QUESTION 1.12-->
 
@@ -334,3 +341,28 @@
 </section>
 
 </div>
+
+
+<script>
+window.addEventListener("DOMContentLoaded", function(){
+if(window.location.href.indexOf("#to-in-store-returns") > -1){
+	jm_scroll_a();
+	console.log('returns din din din');
+}	
+});
+
+// onclick="jm_scroll_1(this.id);" onkeypress="jm_scroll_1(this.id);	
+function jm_scroll_a(){
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $('#in_store_returns').offset().top - 200
+    }, 2500);    
+    $('#in_store_returns').addClass('jmr-target');
+}
+    // function jm_scroll_a_ref(this_class){
+    //     console.log(this_class);
+    //     $('body, html').animate({
+    //         scrollTop: $('#' + this_class).offset().top - 200
+
+    //     }, 1000);
+    // }
+</script>
